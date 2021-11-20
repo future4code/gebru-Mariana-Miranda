@@ -17,28 +17,35 @@ function imprimeMensagem() {
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo(altura,largura) {
+function calculaAreaRetangulo() {
   // implemente sua lógica aqui
-const altura = 4
-const largura = 6
-  const resultado = altura * largura
+const altura = Number(prompt("Coloque a altura"))
+const largura = Number(prompt("Coloque a largura"))
 
-return calculaAreaRetangulo
+console.log( altura * largura)
 
 
 }
 
 
-
 // EXERCÍCIO 02
 function imprimeIdade() {
   // implemente sua lógica aqui
+const esteAno = Number(prompt("digite o ano que estamos"))
+const anoQueNasceu = Number ( prompt("digite ano que você nasceu"))
+
+console.log (esteAno - anoQueNasceu)
 
 }
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
+  let Peso = Number(prompt("Insira seu peso"))
+  let altura - Number(prompt("Insira sua altura"))
+  let Imc = peso / (altura * altura)
+
+  return Imc.toFixed
 
 }
 
@@ -52,13 +59,20 @@ function imprimeInformacoesUsuario() {
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
+  const cor1 =prompt("diga sua cor favorita"))
+  const cor2 = prompt("Dia outra cor favorita"))
+  const cor3 = prompt("Diga outra cor")
+  let coresPreferidas = [cor1,cor2,cor3]
+  console.log(coresPreferidas)
 
 }
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
+const Maiuscula = prompt("digite uma frase")
 
+return Maiuscula.toUpperCase()
 }
 
 // EXERCÍCIO 07
@@ -70,19 +84,21 @@ function calculaIngressosEspetaculo(custo, valorIngresso) {
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
+  return string1.length == string2.length
 
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
-
+return array[0]
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
 
+  return array[array.length -1]
 }
 
 // EXERCÍCIO 11
